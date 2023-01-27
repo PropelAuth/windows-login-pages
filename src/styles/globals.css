@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.os_98 {
+  background: silver;
+}
+
+.os_xp {
+  background: #ece9d8;
+}
+
+.os_7 {
+  background: #f0f0f0;
+}
+
+.window {
+  width: 375px;
+}
+
+.os_7 .window-body {
+  padding: 10px;
+}
+
+.window-body {
+  margin: 10px;
+}
+
+input {
+  width: -webkit-fill-available;
+  margin: 5px 0;
+}
+
+.BaseCheckbox {
+  margin: 4px 0;
+}
+
+.BaseCheckbox input {
+  width: auto;
+}
+
+button {
+  margin-top: 5px;
+}
+
+p {
+  line-height: 1.3;
+}
+
+.os_98 div[data-contain="form"] .BaseButton {
+  margin-bottom: 0;
+  width: auto;
+  padding: 0 12px;
+}
+
+.BaseContainer {
+  width: auto;
+  padding: 5px 0;
+}
+
+.select-os {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 150px;
+}
+
+.select-os select {
+  width: 100%;
+}
+
+.tree-view {
+  position: absolute;
+  top: 20px;
+  bottom: 20px;
+  left: 20px;
+  overflow-y: scroll;
+  padding-right: 30px !important;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.BaseAlert {
+  margin: 10px 0 0 0;
+}
+
+div[data-contain="logo"],
+div[data-contain="header"],
+div[data-contain="content"],
+div[data-contain="link"] {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.BaseAnchorButton {
+  box-shadow: none;
+}

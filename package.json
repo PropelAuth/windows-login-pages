@@ -1,0 +1,23 @@
+{
+  "name": "windows-login-pages",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.5",
+    "@propelauth/base-elements": "^0.0.14",
+    "@propelauth/react-test": "^2.1.0-beta.86",
+    "7.css": "^0.11.0",
+    "98.css": "^0.1.18",
+    "dotenv": "^16.0.3",
+    "next": "13.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "xp.css": "^0.2.6"
+  }
+}
