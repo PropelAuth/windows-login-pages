@@ -1,5 +1,5 @@
 import { Container } from "@/components/Container";
-import { LoginManager, Signup, ForgotPassword } from "@propelauth/react-test";
+import { LoginManager, Signup, ForgotPassword } from "@propelauth/react";
 import { useEffect, useState } from "react";
 
 export default function App() {

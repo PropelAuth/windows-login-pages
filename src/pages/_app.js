@@ -1,4 +1,4 @@
-import { AuthProvider, ComponentLibraryProvider } from "@propelauth/react-test";
+import { AuthProvider, BetaComponentLibraryProvider } from "@propelauth/react";
 import { BaseElements } from "@propelauth/base-elements";
 import "@propelauth/base-elements/dist/default.css";
 import "@/styles/globals.css";
@@ -13,9 +13,9 @@ const elements = {
 export default function App({ Component, pageProps }) {
   return (
     <AuthProvider authUrl={process.env.NEXT_PUBLIC_AUTH_URL}>
-      <ComponentLibraryProvider elements={elements}>
+      <BetaComponentLibraryProvider elements={elements}>
         <Component {...pageProps} />
-      </ComponentLibraryProvider>
+      </BetaComponentLibraryProvider>
     </AuthProvider>
   );
 }
